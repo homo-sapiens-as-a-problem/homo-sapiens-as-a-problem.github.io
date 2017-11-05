@@ -3,9 +3,7 @@
 }
 
 /**/
-article figure:first-child{
-    box-shadow: 10px 1px 75px rgba(255,155,155,0.3);
-}
+article figure:first-child{box-shadow: 0px 1px 32px 1px rgba(255,155,155,0.25);}
 
 article figure > h1{
     color: white;
@@ -18,7 +16,7 @@ article figure > h1:first-child{
 }
 
 article figure > h1:last-child{
-    bottom: 2%;
+    bottom: 6%;
     color: #dd8841;
     color: red;
 }
