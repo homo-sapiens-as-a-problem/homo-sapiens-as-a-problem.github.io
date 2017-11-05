@@ -27,12 +27,14 @@ p.header.active::before{
 
 /* combined */
 main > aside .lead{
-    font-weight: 300;
+    /* font-weight: 300; */
+    color: #999;
+    font-size: 20px;
     margin-bottom: 32px;
 }
 aside h1,
 aside .header{
-    font-size: 1.17em;
+    font-size: 1em;
     font-weight: bold;
 }
 

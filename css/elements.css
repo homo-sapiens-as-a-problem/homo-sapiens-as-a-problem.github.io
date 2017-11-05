@@ -22,8 +22,10 @@ a:hover{
 }
 
 hr{
-    border: none;
-    margin-top: 24px;
+    
+border: none;
+    
+margin-top: 24px;
 }
 
 main > article{

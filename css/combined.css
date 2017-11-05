@@ -1,6 +1,7 @@
 h1,h2,h3,h4,h5,
 .header{
     margin-bottom: 4px;
+    color: #dd8841;
 }
 
 h1,h2,h3,h4,h5,
@@ -15,5 +16,5 @@ img, video{
 }
 
 .hr-darkred{
-    border-bottom: dotted 1px rgb(139, 0, 0);
+    border-bottom: dotted 1px rgba(221, 136, 65, 0.65);
 }
