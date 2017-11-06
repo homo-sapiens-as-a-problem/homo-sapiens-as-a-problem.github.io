@@ -1,6 +1,7 @@
 #article{
-    padding: 0 60px 20px 60px;
     position: relative;
+    padding: 0 20px 20px;
+    overflow-x: hidden;
 }
 
 /**/
@@ -53,4 +54,19 @@ article li{
     background-image: radial-gradient(ellipse at 160px 60px, rgba(255,255,255,.5) 5%, rgba(255,255,255,.35) 25%, transparent 63%);
     font-size: 26px;
     padding: 44px 60px 38px;margin: 0 -60px;
+}
+
+@media screen and (max-width: 899px){
+    #article > .lead{
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (min-width: 900px){
+    #article{
+        padding: 0 60px 20px 60px;
+    }
 }

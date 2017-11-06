@@ -42,8 +42,8 @@ h1 a{
     font-weight: 300;
     opacity: 0.5;
     position: absolute;
-    top: 40px;
-    left: 60px;
+    top: 30px;
+    left: 20px;
     z-index: 1;
 }
 
@@ -63,9 +63,12 @@ h1 a{
 
 @media screen and (min-width: 900px){
     aside{
-        /* background: #190b1c; */
         min-width: 340px;
         max-width: 340px;
+    }
+    #home{
+        top: 40px;
+        left: 60px;
     }
     #wrapper{
         bottom: 0;
@@ -74,5 +77,11 @@ h1 a{
         position: fixed;
         top: 0;
         width: 340px;
+    }
+}
+
+@media screen and (max-width: 899px){
+    main > aside .lead{
+        display:none;
     }
 }
