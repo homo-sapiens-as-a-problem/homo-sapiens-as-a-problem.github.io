@@ -1,5 +1,6 @@
 #article{
     padding: 0 60px 20px 60px;
+    position: relative;
 }
 
 /**/
@@ -11,21 +12,19 @@ article hr{
 article figure > h1{
     color: white;
     font-size: 32px;
-    font-weight: 300;
     right: 60px;
     position: absolute;
-    /* text-align: right; */
 }
 
 article figure > h1{
     top: 40px;
 }
 article figure > h1 div:last-child{
-    color: #d78138;
+    color: #999;
 }
 
 article h3{
-    margin-bottom: 26px;
+    margin-bottom: 20px;
     margin-top: 40px;
 }
 
@@ -49,5 +48,9 @@ article li{
 }
 
 #article > .lead{
-    padding-bottom: 20px;
+    color: rgba(255,255,255,.75);
+    text-shadow: 1px 1px 1px black;
+    background-image: radial-gradient(ellipse at 160px 60px, rgba(255,255,255,.5) 5%, rgba(255,255,255,.35) 25%, transparent 63%);
+    font-size: 26px;
+    padding: 44px 60px 38px;margin: 0 -60px;
 }
