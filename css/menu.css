@@ -1,12 +1,3 @@
-a{
-    color: rgb(150,150,255);
-}
-
-aside{
-    
-padding-top: 0;
-}
-
 p.header:not(.lead):not(.no-content)::before{
     outline: solid 1px;
     content: "+";
@@ -45,13 +36,15 @@ h1 a{
    font-weight: 300;
 }
 
-#home{    
-    display: block;
+#home{
     color: white;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 300;
-    opacity: 0.8;
-    margin-bottom: 30px;
+    opacity: 0.5;
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    z-index: 1;
 }
 
 #home:hover{    
@@ -70,14 +63,16 @@ h1 a{
 
 @media screen and (min-width: 900px){
     aside{
+        /* background: #190b1c; */
         min-width: 340px;
         max-width: 340px;
     }
     #wrapper{
         bottom: 0;
-        padding-right: 20px;
+        padding: 40px;
+        padding-top: 48px;
         position: fixed;
-        top: 32px;
+        top: 0;
         width: 340px;
     }
 }

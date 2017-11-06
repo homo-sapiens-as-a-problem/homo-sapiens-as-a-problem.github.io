@@ -1,6 +1,11 @@
 .collapsed{
     display: none;
 }
+
 .lead{
     margin-top: 0;
+}
+
+.menu a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
